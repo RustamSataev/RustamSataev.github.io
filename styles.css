@@ -10,12 +10,14 @@ html {
 }
 
 body {
+    background: url("header1.jpg") no-repeat;
+    background-size: cover;
     color: aliceblue;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     margin: 0;
-    background: url("header1.jpg") no-repeat;
-    background-size: cover;
+    
+    
 }
 
 .container {
@@ -40,8 +42,6 @@ body {
     left: 0;
     right: 0;
     z-index: 1000;
-    background:  
-
 }
 
 .nav {
@@ -68,6 +68,7 @@ body {
     font-size: 20px;
     text-decoration: none;
     color: aliceblue;
+    
 }
 
 .intro {
