@@ -14,7 +14,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     margin: 0;
-    background: url('../portfolio/images/header1.jpg') no-repeat;
+    background: url("header1.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -40,6 +40,7 @@ body {
     left: 0;
     right: 0;
     z-index: 1000;
+    background:  
 
 }
 
