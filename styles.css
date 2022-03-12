@@ -10,9 +10,12 @@ html {
 }
 
 body {
+    color: aliceblue;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     margin: 0;
+    background-image: url("../portfolio/images/header.jpg");
+    background-size: cover;
 }
 
 .container {
@@ -31,7 +34,6 @@ body {
 }
 
 .header {
-    background-color: blue;
     width: 100%;
     padding-top: 10px;
     top: 0;
@@ -94,6 +96,7 @@ body {
 .intro-right h1,
 .intro-right h3 {
     margin: 0 0 10px;
+    font-family: 'Kaushan Script', cursive;
 }
 
 .Contacts ul {
@@ -108,9 +111,13 @@ body {
 
 .skills {
     text-align: center;
-    color: aliceblue;
-    background-color: blue;
+    color: rgb(247, 243, 243);
 }
+
+.skills section h2 {
+    color: rgb(10, 10, 10);
+}
+
 
 .skills ul {
     display: flex;
@@ -123,9 +130,10 @@ body {
 }
 
 .skills li {
+    color: black;
     padding: 10px 25px;
     border-radius: 4px;
-    background-color: rgb(0, 110, 255);
+    background-color: #fff;
 }
 
 .code {
@@ -141,18 +149,18 @@ body {
 }
 
 .code pre {
-    width: 53%;
+    width: 500px;
     margin: 0 auto;
     text-align: left;
-    color: aliceblue;
-    background-color: blue;
+    color: rgb(10, 10, 10);
+    background-color: #fff;
+    border-radius: 8px;
     
 }
 
 .portfolio {
     list-style: none;
     margin: 10px;
-    background-color: blue;
 }
 
 .portfolio-text {
@@ -164,15 +172,15 @@ body {
 .grid {
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(2, 600px);
-    grid-template-rows: repeat(2, 600px);
+    grid-template-columns: repeat(2, 650px);
+    grid-template-rows: repeat(2, 650px);
     border-radius: 5px;
 }
 
 .form-img {
-    width: 600px;
+    width: 650px;
     height: 500px;
-    padding: 15px;
+    padding: 10px;
     border-radius: 8px;
 }
 
@@ -182,7 +190,7 @@ body {
     flex-wrap: wrap;
     gap: 30px;
     margin: 0;
-    padding: 0;
+    padding: 15px;
     list-style: none;
 }
 
@@ -197,11 +205,15 @@ body {
     flex-wrap: wrap;
     gap: 30px;
     margin: 0;
-    padding: 0;
+    padding: 15px;
     list-style: none;
 }
 
 .education h2 {
     text-transform: uppercase;
     text-align: center;
+}
+
+.link2 a {
+    color: aliceblue;
 }
